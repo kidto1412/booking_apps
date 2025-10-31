@@ -8,7 +8,9 @@ export default function HomeScreen() {
     <SafeAreaView>
       <View>
         <Text> Hello world</Text>
-        <Button className="text-white">Hello</Button>
+        <Button className="text-white">
+          <Text>Hello</Text>
+        </Button>
       </View>
     </SafeAreaView>
   );
